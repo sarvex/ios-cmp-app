@@ -1,0 +1,6 @@
+framework module Pods_WebviewCookies {
+  umbrella header "Pods-WebviewCookies-umbrella.h"
+
+  export *
+  module * { export * }
+}

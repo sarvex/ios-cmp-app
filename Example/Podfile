@@ -30,6 +30,12 @@ target 'ObjC-ExampleApp' do
   pod 'SwiftLint'
 end
 
+target 'WebviewCookies' do
+  pod 'ConsentViewController', :path => '../'
+  pod 'SwiftLint'
+  pod 'Wormholy'
+end
+
 target 'SourcePointMetaApp' do
   pod 'ConsentViewController', :path => '../'
   pod 'IQKeyboardManagerSwift'

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WebviewCookies" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BnI-Ax-4xZ" userLabel="Network Requests">
+                                <rect key="frame" x="0.0" y="775" width="390" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Network Requests"/>
+                                <connections>
+                                    <action selector="ShowNetworkRequestsPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jBq-aG-zVI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wB2-a7-2Ga">
+                                <rect key="frame" x="0.0" y="732" width="390" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Privacy Manager"/>
+                                <connections>
+                                    <action selector="loadPrivacyManagerPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cUo-UE-2PN"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGK-dh-xDw" userLabel="AuthId Label">
+                                <rect key="frame" x="0.0" y="689" width="390" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemGray2Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="BnI-Ax-4xZ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="5TF-IS-M0i"/>
+                            <constraint firstItem="BnI-Ax-4xZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6TA-MJ-7Ti"/>
+                            <constraint firstItem="BnI-Ax-4xZ" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="6ZF-vA-laf"/>
+                            <constraint firstItem="gGK-dh-xDw" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="6kj-B9-GbT"/>
+                            <constraint firstItem="wB2-a7-2Ga" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="81e-Vl-rgf"/>
+                            <constraint firstItem="BnI-Ax-4xZ" firstAttribute="height" secondItem="gGK-dh-xDw" secondAttribute="height" id="9cd-yg-u5S"/>
+                            <constraint firstItem="wB2-a7-2Ga" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" id="HS8-Mo-ua8"/>
+                            <constraint firstItem="gGK-dh-xDw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cBQ-pe-t5h"/>
+                            <constraint firstItem="BnI-Ax-4xZ" firstAttribute="top" secondItem="wB2-a7-2Ga" secondAttribute="bottom" constant="8" symbolic="YES" id="cnu-mX-w5v"/>
+                            <constraint firstItem="wB2-a7-2Ga" firstAttribute="top" secondItem="gGK-dh-xDw" secondAttribute="bottom" constant="8" symbolic="YES" id="d5u-wh-95p"/>
+                            <constraint firstItem="wB2-a7-2Ga" firstAttribute="height" secondItem="gGK-dh-xDw" secondAttribute="height" id="xgn-4M-0TF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="authIdLabel" destination="gGK-dh-xDw" id="hTy-SA-ZOc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="127.69230769230769" y="3.5545023696682461"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

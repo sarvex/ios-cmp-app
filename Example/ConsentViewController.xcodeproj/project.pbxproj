@@ -105,6 +105,7 @@
 		6DE11C6C269A2D5C0058ABE9 /* CampaignModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE11C6B269A2D5C0058ABE9 /* CampaignModel.swift */; };
 		6DE11C70269A2DDB0058ABE9 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE11C6E269A2DDB0058ABE9 /* SideMenuViewController.swift */; };
 		6DE11C71269A2DDB0058ABE9 /* ConsentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE11C6F269A2DDB0058ABE9 /* ConsentDetailsViewController.swift */; };
+		772ABA2A482DE039A32F02D7 /* Pods_WebviewCookies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC527B3B62DD49506FA8A0D4 /* Pods_WebviewCookies.framework */; };
 		7B51CFC524FD0B3A0096048F /* MetaAppValidationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B51CFC424FD0B3A0096048F /* MetaAppValidationUITests.swift */; };
 		8214B27A249CC13B00167BFE /* SPGDPRExampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8214B279249CC13B00167BFE /* SPGDPRExampleAppUITests.swift */; };
 		822BF2C62657E29800177B0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822BF2C52657E29800177B0E /* AppDelegate.swift */; };
@@ -118,6 +119,12 @@
 		8231B14522BA5A6B00D2669B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8231B14322BA5A6B00D2669B /* Main.storyboard */; };
 		8231B14722BA5A6C00D2669B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8231B14622BA5A6C00D2669B /* Assets.xcassets */; };
 		8231B14A22BA5A6C00D2669B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8231B14822BA5A6C00D2669B /* LaunchScreen.storyboard */; };
+		823B40572981481600792C06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823B40562981481600792C06 /* AppDelegate.swift */; };
+		823B40592981481600792C06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823B40582981481600792C06 /* SceneDelegate.swift */; };
+		823B405B2981481600792C06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823B405A2981481600792C06 /* ViewController.swift */; };
+		823B405E2981481600792C06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823B405C2981481600792C06 /* Main.storyboard */; };
+		823B40602981481600792C06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 823B405F2981481600792C06 /* Assets.xcassets */; };
+		823B40632981481600792C06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823B40612981481600792C06 /* LaunchScreen.storyboard */; };
 		8241E366298053310092BC83 /* CCPAConsentStatusSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8241E365298053310092BC83 /* CCPAConsentStatusSpec.swift */; };
 		8248A497247D17AA00A7D9AD /* SimpleClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8248A496247D17AA00A7D9AD /* SimpleClientSpec.swift */; };
 		8248A499247E5FCC00A7D9AD /* GDPRUserConsentsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8248A498247E5FCC00A7D9AD /* GDPRUserConsentsSpec.swift */; };
@@ -151,6 +158,7 @@
 		82D8FEE623DC753400F28D74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D8FEE423DC753400F28D74 /* Main.storyboard */; };
 		82D8FEE823DC753500F28D74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82D8FEE723DC753500F28D74 /* Assets.xcassets */; };
 		82D8FEEB23DC753500F28D74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82D8FEE923DC753500F28D74 /* LaunchScreen.storyboard */; };
+		82E036E329829A750056E161 /* AuthenticatedWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E036E229829A750056E161 /* AuthenticatedWebView.swift */; };
 		82EA4E302491019900DC01C9 /* HttpMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EA4E2F2491019900DC01C9 /* HttpMock.swift */; };
 		82EA4E32249101EC00DC01C9 /* SourcePointClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EA4E31249101EC00DC01C9 /* SourcePointClientMock.swift */; };
 		82EA4E342491324400DC01C9 /* GDPRLocalStorageMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EA4E332491324400DC01C9 /* GDPRLocalStorageMock.swift */; };
@@ -244,6 +252,7 @@
 /* Begin PBXFileReference section */
 		06FF3055BBD086FD32F83522 /* Pods-NativePMExampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativePMExampleApp.debug.xcconfig"; path = "Target Support Files/Pods-NativePMExampleApp/Pods-NativePMExampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		09777D81B214ADF39CC9EC18 /* Pods-SourcePointMetaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SourcePointMetaApp.debug.xcconfig"; path = "Target Support Files/Pods-SourcePointMetaApp/Pods-SourcePointMetaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		0C93CE4B30504615EA0BD834 /* Pods-WebviewCookies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebviewCookies.release.xcconfig"; path = "Target Support Files/Pods-WebviewCookies/Pods-WebviewCookies.release.xcconfig"; sourceTree = "<group>"; };
 		1997B63A238FDCE80079AF34 /* Unified-MetaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unified-MetaApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1997B64A238FDCF30079AF34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1997B675238FDEA00079AF34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -399,6 +408,14 @@
 		8231B14922BA5A6C00D2669B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8231B14B22BA5A6C00D2669B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8231B15122BBC39900D2669B /* ConsentViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ConsentViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		823B40542981481600792C06 /* WebviewCookies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebviewCookies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		823B40562981481600792C06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		823B40582981481600792C06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		823B405A2981481600792C06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		823B405D2981481600792C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		823B405F2981481600792C06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		823B40622981481600792C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		823B40642981481600792C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8241E365298053310092BC83 /* CCPAConsentStatusSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CCPAConsentStatusSpec.swift; path = ConsentViewController_ExampleTests/CCPAConsentStatusSpec.swift; sourceTree = SOURCE_ROOT; };
 		8248A496247D17AA00A7D9AD /* SimpleClientSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleClientSpec.swift; sourceTree = "<group>"; };
 		8248A498247E5FCC00A7D9AD /* GDPRUserConsentsSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDPRUserConsentsSpec.swift; sourceTree = "<group>"; };
@@ -437,6 +454,7 @@
 		82D8FEE723DC753500F28D74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82D8FEEA23DC753500F28D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82D8FEEC23DC753500F28D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82E036E229829A750056E161 /* AuthenticatedWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedWebView.swift; sourceTree = "<group>"; };
 		82EA4E2F2491019900DC01C9 /* HttpMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HttpMock.swift; path = Helpers/HttpMock.swift; sourceTree = "<group>"; };
 		82EA4E31249101EC00DC01C9 /* SourcePointClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SourcePointClientMock.swift; path = Helpers/SourcePointClientMock.swift; sourceTree = "<group>"; };
 		82EA4E332491324400DC01C9 /* GDPRLocalStorageMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GDPRLocalStorageMock.swift; path = Helpers/GDPRLocalStorageMock.swift; sourceTree = "<group>"; };
@@ -459,12 +477,14 @@
 		B39F896DA82477A27098B0D4 /* Pods-NativePMExampleAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativePMExampleAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-NativePMExampleAppUITests/Pods-NativePMExampleAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B3AB856F9BFB1E4C20BE271E /* Pods-ConsentViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConsentViewController_Example.debug.xcconfig"; path = "Target Support Files/Pods-ConsentViewController_Example/Pods-ConsentViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B5AA36A7D29C1E427A75F8D4 /* ConsentViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ConsentViewController.podspec; path = ../ConsentViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B8D053D91FCFB32A76DF15F9 /* Pods-WebviewCookies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebviewCookies.debug.xcconfig"; path = "Target Support Files/Pods-WebviewCookies/Pods-WebviewCookies.debug.xcconfig"; sourceTree = "<group>"; };
 		B978E9E2FEA811F76EB35AEF /* Pods_ObjC_ExampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjC_ExampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0832DBC8AD4066863AE2D13 /* Pods-SourcePointMetaAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SourcePointMetaAppUITests.release.xcconfig"; path = "Target Support Files/Pods-SourcePointMetaAppUITests/Pods-SourcePointMetaAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C6DA11119FC9A4152ED1AB7B /* Pods_ConsentViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConsentViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA14C07963B86F366C59461 /* Pods_AuthExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD790924D43AB15D4570319F /* Pods-ObjC-ExampleAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjC-ExampleAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ObjC-ExampleAppUITests/Pods-ObjC-ExampleAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DEEE880C459873024776BEAF /* Pods-NativeMessageExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeMessageExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-NativeMessageExampleUITests/Pods-NativeMessageExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EC527B3B62DD49506FA8A0D4 /* Pods_WebviewCookies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebviewCookies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F10177D3A28AEBAD9B114548 /* Pods-SPGDPRExampleAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SPGDPRExampleAppUITests.release.xcconfig"; path = "Target Support Files/Pods-SPGDPRExampleAppUITests/Pods-SPGDPRExampleAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F962563A1328740DC9407850 /* Pods_ConsentViewController_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConsentViewController_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -562,6 +582,14 @@
 			files = (
 				6D84BB4225E68C6D002D6996 /* ConsentViewController.framework in Frameworks */,
 				444F0260B39183F23C0656E5 /* Pods_AuthExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823B40512981481500792C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772ABA2A482DE039A32F02D7 /* Pods_WebviewCookies.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -923,6 +951,7 @@
 				822BF2C42657E29800177B0E /* NativePMExampleApp */,
 				822BF2E42657E29900177B0E /* NativePMExampleAppUITests */,
 				8255B6C927A9661100C9A70D /* SPMBuild */,
+				823B40552981481600792C06 /* WebviewCookies */,
 				607FACD11AFB9204008FA782 /* Products */,
 				EEE3CDAB8AFE80647B1E565B /* Frameworks */,
 				71D1A6814E9EB941C02E22B8 /* Pods */,
@@ -947,6 +976,7 @@
 				822BF2D62657E29900177B0E /* NativePMExampleAppTests.xctest */,
 				822BF2E12657E29900177B0E /* NativePMExampleAppUITests.xctest */,
 				8255B6C827A9661100C9A70D /* SPMBuild.app */,
+				823B40542981481600792C06 /* WebviewCookies.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1164,6 +1194,8 @@
 				9CC836079EC58C0FA218B5D0 /* Pods-NativePMExampleAppUITests.release.xcconfig */,
 				1E8159FF44D6656682250605 /* Pods-ObjC-ExampleApp.debug.xcconfig */,
 				67D7BFA35C4DBCA787E07E5B /* Pods-ObjC-ExampleApp.release.xcconfig */,
+				B8D053D91FCFB32A76DF15F9 /* Pods-WebviewCookies.debug.xcconfig */,
+				0C93CE4B30504615EA0BD834 /* Pods-WebviewCookies.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1216,6 +1248,21 @@
 				8231B14B22BA5A6C00D2669B /* Info.plist */,
 			);
 			path = AuthExample;
+			sourceTree = "<group>";
+		};
+		823B40552981481600792C06 /* WebviewCookies */ = {
+			isa = PBXGroup;
+			children = (
+				823B40562981481600792C06 /* AppDelegate.swift */,
+				823B40582981481600792C06 /* SceneDelegate.swift */,
+				823B405A2981481600792C06 /* ViewController.swift */,
+				823B405C2981481600792C06 /* Main.storyboard */,
+				823B405F2981481600792C06 /* Assets.xcassets */,
+				823B40612981481600792C06 /* LaunchScreen.storyboard */,
+				823B40642981481600792C06 /* Info.plist */,
+				82E036E229829A750056E161 /* AuthenticatedWebView.swift */,
+			);
+			path = WebviewCookies;
 			sourceTree = "<group>";
 		};
 		8255B6C927A9661100C9A70D /* SPMBuild */ = {
@@ -1354,6 +1401,7 @@
 				7BC7540AF47BC8816D0FD1C7 /* Pods_SourcePointMetaAppUITests.framework */,
 				B13B976FF318A1137E372BA0 /* Pods_NativePMExampleAppUITests.framework */,
 				B978E9E2FEA811F76EB35AEF /* Pods_ObjC_ExampleApp.framework */,
+				EC527B3B62DD49506FA8A0D4 /* Pods_WebviewCookies.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1396,8 +1444,6 @@
 			dependencies = (
 			);
 			name = ConsentViewController_Example;
-			packageProductDependencies = (
-			);
 			productName = ConsentViewController;
 			productReference = 607FACD01AFB9204008FA782 /* SPGDPRExampleApp.app */;
 			productType = "com.apple.product-type.application";
@@ -1598,6 +1644,25 @@
 			productReference = 8231B13D22BA5A6B00D2669B /* AuthExample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		823B40532981481500792C06 /* WebviewCookies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 823B40672981481600792C06 /* Build configuration list for PBXNativeTarget "WebviewCookies" */;
+			buildPhases = (
+				BDD9D1D23EDF5DC793EB1C5F /* [CP] Check Pods Manifest.lock */,
+				823B40502981481500792C06 /* Sources */,
+				823B40512981481500792C06 /* Frameworks */,
+				823B40522981481500792C06 /* Resources */,
+				E341C4FD47761D32780DAA8D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebviewCookies;
+			productName = webviewcookies;
+			productReference = 823B40542981481600792C06 /* WebviewCookies.app */;
+			productType = "com.apple.product-type.application";
+		};
 		8255B6C727A9661100C9A70D /* SPMBuild */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8255B6DB27A9661200C9A70D /* Build configuration list for PBXNativeTarget "SPMBuild" */;
@@ -1663,7 +1728,7 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1310;
+				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -1723,6 +1788,9 @@
 						CreatedOnToolsVersion = 10.2.1;
 						LastSwiftMigration = 1110;
 					};
+					823B40532981481500792C06 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
 					8255B6C727A9661100C9A70D = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -1771,6 +1839,7 @@
 				822BF2D52657E29900177B0E /* NativePMExampleAppTests */,
 				822BF2E02657E29900177B0E /* NativePMExampleAppUITests */,
 				8255B6C727A9661100C9A70D /* SPMBuild */,
+				823B40532981481500792C06 /* WebviewCookies */,
 			);
 		};
 /* End PBXProject section */
@@ -1887,6 +1956,16 @@
 				82A99CCE255D958000A85024 /* index.html in Resources */,
 				8231B14522BA5A6B00D2669B /* Main.storyboard in Resources */,
 				82A99CC3255D956400A85024 /* 404.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		823B40522981481500792C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823B40632981481600792C06 /* LaunchScreen.storyboard in Resources */,
+				823B40602981481600792C06 /* Assets.xcassets in Resources */,
+				823B405E2981481600792C06 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2325,6 +2404,28 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AuthExample/Pods-AuthExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BDD9D1D23EDF5DC793EB1C5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebviewCookies-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CE0283FE83D99DC226078C6D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2406,6 +2507,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConsentViewController_ExampleTests/Pods-ConsentViewController_ExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E341C4FD47761D32780DAA8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebviewCookies/Pods-WebviewCookies-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebviewCookies/Pods-WebviewCookies-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WebviewCookies/Pods-WebviewCookies-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EA50D681F8F7464E13EB1142 /* [CP] Embed Pods Frameworks */ = {
@@ -2599,6 +2717,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		823B40502981481500792C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823B405B2981481600792C06 /* ViewController.swift in Sources */,
+				82E036E329829A750056E161 /* AuthenticatedWebView.swift in Sources */,
+				823B40572981481600792C06 /* AppDelegate.swift in Sources */,
+				823B40592981481600792C06 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8255B6C427A9661100C9A70D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2779,6 +2908,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				8231B14922BA5A6C00D2669B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		823B405C2981481600792C06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				823B405D2981481600792C06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		823B40612981481600792C06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				823B40622981481600792C06 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -3706,6 +3851,85 @@
 			};
 			name = Release;
 		};
+		823B40652981481600792C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8D053D91FCFB32A76DF15F9 /* Pods-WebviewCookies.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2JCN984334;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = webviewcookies/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sourcepoint.webviewcookies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		823B40662981481600792C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C93CE4B30504615EA0BD834 /* Pods-WebviewCookies.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2JCN984334;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = webviewcookies/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sourcepoint.webviewcookies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		8255B6D927A9661200C9A70D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4019,6 +4243,15 @@
 			buildConfigurations = (
 				8231B14C22BA5A6C00D2669B /* Debug */,
 				8231B14D22BA5A6C00D2669B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		823B40672981481600792C06 /* Build configuration list for PBXNativeTarget "WebviewCookies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823B40652981481600792C06 /* Debug */,
+				823B40662981481600792C06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
