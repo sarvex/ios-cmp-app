@@ -186,14 +186,34 @@ import WebKit
         }
     }
 
+    func handleConsentPreload() {
+        let consents = """
+        {
+          "categories": [],
+          "legIntCategories": [],
+          "vendors": [],
+          "legIntVendors": [],
+          "specialFeatures": [],
+          "hasConsentData": true
+        }
+        """
+        DispatchQueue.main.async {
+            self.webview?.evaluateJavaScript("""
+                window.SDK.loadConsents(\(consents));
+            """)
+        }
+    }
+
     override func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
         if
             let messageBody = try? SPJson(message.body),
             let eventName = RenderingAppEvents(rawValue: messageBody["name"]?.stringValue ?? ""),
             let body = messageBody["body"]
         {
+            print("===", eventName.rawValue, "===")
             switch eventName {
             case .readyForPreload: handleMessagePreload()
+            case .readyForConsentPreload: handleConsentPreload()
             case .onMessageReady: messageUIDelegate?.loaded(self)
             case .onAction:
                 if let action = getActionFrom(body: body) {

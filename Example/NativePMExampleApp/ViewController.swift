@@ -40,8 +40,8 @@ class ViewController: UIViewController {
     lazy var consentManager: SPSDK = {
         return SPConsentManager(
             accountId: 22,
-            propertyId: 21927,
-            propertyName: try! SPPropertyName("appletv.demo"),
+            propertyId: 30174,
+            propertyName: try! SPPropertyName("native-ott-issues-testing"),
             campaigns: campaigns,
             delegate: self
         )
